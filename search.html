@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME SHOP SAVVY - search page</title>
+  <!-- bootstrap link -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- css link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+  
+  
+  <!--<nav>
+
+    <div class="sidebar-top">
+      <span class="shrink-btn">
+        <i class='bx bx-chevron-left'></i>
+      </span>
+      <img src="./img/logo.png" class="logo" alt="">
+      <h3 class="hide">Aqumex</h3>
+    </div>
+
+    <div class="search">
+      <i class='bx bx-search'></i>
+      <input type="text" class="hide" placeholder="Quick Search ...">
+    </div>
+
+    <div class="sidebar-links">
+      <ul>
+        <div class="active-tab"></div>
+        <li class="tooltip-element" data-tooltip="0">
+          <a href="#" class="active" data-active="0">
+            <div class="icon">
+              <i class='bx bx-tachometer'></i>
+              <i class='bx bxs-tachometer'></i>
+            </div>
+            <span class="link hide">Dashboard</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="1">
+          <a href="#" data-active="1">
+            <div class="icon">
+              <i class='bx bx-folder'></i>
+              <i class='bx bxs-folder'></i>
+            </div>
+            <span class="link hide">Projects</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="2">
+          <a href="#" data-active="2">
+            <div class="icon">
+              <i class='bx bx-message-square-detail'></i>
+              <i class='bx bxs-message-square-detail'></i>
+            </div>
+            <span class="link hide">Messages</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="3">
+          <a href="#" data-active="3">
+            <div class="icon">
+              <i class='bx bx-bar-chart-square'></i>
+              <i class='bx bxs-bar-chart-square'></i>
+            </div>
+            <span class="link hide">Analytics</span>
+          </a>
+        </li>
+        <div class="tooltip">
+          <span class="show">Dashboard</span>
+          <span>Projects</span>
+          <span>Messages</span>
+          <span>Analytics</span>
+        </div>
+      </ul>
+
+      <h4 class="hide">Shortcuts</h4>
+
+      <ul>
+        <li class="tooltip-element" data-tooltip="0">
+          <a href="#" data-active="4">
+            <div class="icon">
+              <i class='bx bx-notepad'></i>
+              <i class='bx bxs-notepad'></i>
+            </div>
+            <span class="link hide">Tasks</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="1">
+          <a href="#" data-active="5">
+            <div class="icon">
+              <i class='bx bx-help-circle'></i>
+              <i class='bx bxs-help-circle'></i>
+            </div>
+            <span class="link hide">Help</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="2">
+          <a href="#" data-active="6">
+            <div class="icon">
+              <i class='bx bx-cog'></i>
+              <i class='bx bxs-cog'></i>
+            </div>
+            <span class="link hide">Settings</span>
+          </a>
+        </li>
+        <div class="tooltip">
+          <span class="show">Tasks</span>
+          <span>Help</span>
+          <span>Settings</span>
+        </div>
+      </ul>
+    </div>
+
+    <div class="sidebar-footer">
+      <a href="#" class="account tooltip-element" data-tooltip="0">
+        <i class='bx bx-user'></i>
+      </a>
+      <div class="admin-user tooltip-element" data-tooltip="1">
+        <div class="admin-profile hide">
+          <img src="./img/face-1.png" alt="">
+          <div class="admin-info">
+            <h3>John Doe</h3>
+            <h5>Admin</h5>
+          </div>
+        </div>
+        <a href="#" class="log-out">
+          <i class='bx bx-log-out'></i>
+        </a>
+      </div>
+      <div class="tooltip">
+        <span class="show">John Doe</span>
+        <span>Logout</span>
+      </div>
+    </div>
+  </nav>-->
+
+
+
+  <header class="fixed-top black-background">
+    <nav class="container d-flex flex-row justify-content-between">
+      <div class="order-1 d-flex">
+        <ul class="list-inline">
+          <li class="list-inline-item nav-item text-uppercase d-none d-md-inline"><a href="#" class="grey gotham"><i
+                class="fas fa-landmark rotate-icon pr-2 fa-2x pink pt-3 grey"></i>Savvy</a></li>
+          <li class="list-inline-item nav-item text-uppercase d-md-none"><a href="#" class="grey small-font gotham"><i
+                class="fas fa-landmark rotate-icon pr-2"></i>Savvy &emsp;</a></li>
+          
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li class="list-inline-item nav-item text-uppercase "><a href="sell.html" class="grey small-font gotham"><i
+                class="fas fa-chart-bar pr-1"></i>Sell</a></li>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          
+          <li class="list-inline-item nav-item text-uppercase d-none d-md-inline"><a href="#">
+              <span class="text-white pink-background rounded py-1 px-2 gotham"><i
+                class="fas fa-chart-bar pr-1"></i>Buy</a></li>
+          </li>
+        </ul>
+      </div>
+      <div class="order-2 flex-row pt-4 d-none d-lg-inline">
+        <a href="#"><i class="fas fa-envelope px-2 fa-lg grey"></i></a>
+        <a href="#"><img src="./Images/home-images/home-images/myphoto.jpg" alt="image"
+            class="my-photo rounded-circle"></a>
+      </div>
+    </nav>
+  </header>
+  <main class="bg-light p-0 m-0 w-100">
+    <section class="pt-md-5 mt-md-3">
+      <div class="hot-img d-flex flex-column col-12 p-0 m-0">
+        <h1 class="text-uppercase mx-auto text-center pt-5 gotham mt-3 text-white">ShopSavvy</h1>
+        <p class="text-center px-2 gotham-light text-white"></p>
+        <div class="list-inline d-flex flex-column flex-md-row text-center text-md-left pt-md-5 mx-auto">
+          <div class="list-inline-item col-12 col-md-3 py-1 w-100 m-0">
+            <select id="categor" name="category" class=" box-model gotham-light mr-2 rounded w-100">
+              <option value="categories mr-4">All categories</option>
+              <option value="canada">books</option>
+              <option value="usa">Drafters</option>
+              <option value="usa">Stationary objects</option>
+            </select>
+          </div>
+          
+          <div class="list-inline-item col-12 col-md-3 py-1 m-0">
+            <input type="text" id="lnamel" name="lastname" placeholder="Name"
+              class=" box-model gotham-light rounded w-100">
+          </div>
+          <div class="list-inline-item col-12 col-md-3 m-0 py-1">
+            <div class="text-uppercase py-1 px-3 gotham-light rounded black-background grey text-center"><a
+                href="search.html" class="grey hover-link text-center">search</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="row p-0 m-0">
+      <section class="col-md-4 d-none d-md-inline border-right pl-lg-5 m-0 pt-4">
+        <table class="">
+          <tr class="">
+            <td class="px-3 pl-lg-3">
+              <h5 class="gotham-light black font-weight-bold">Condition</h5>
+              <select id="categorym" name="category" class=" box-model gotham-light mr-2 rounded col-12">
+                <option value="categories mr-4">New</option>
+                <option value="canada">Used</option>
+                <option value="usa">Defected</option>
+                
+              </select>
+            </td>
+           
+          </tr>
+        </table>
+        <hr class="col-10 ml-2 pl-2">
+        <div class="pl-2 px-lg-3 py-1">
+          <h5 class="gotham-light black font-weight-bold">Categories</h5>
+          <label class="gotham-light black">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>Books
+          </label><br>
+          <label class="gotham-light black">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>Drafters
+          </label><br>
+          <label class="gotham-light black">
+            <input type="radio" name="radio" class="">
+            <span class="checkmark"></span>Stationary Objects
+          </label><br>
+          <label class="gotham-light black">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>Others
+          </label>
+        </div>
+        
+        <hr class="col-10 ml-2 pl-2">
+        <div class="pl-2 px-lg-3 py-4">
+          <h5 class="gotham-light black font-weight-bold">Price ranges</h5>
+          <form action="select">
+            <label class="gotham-light black main">
+              <input type="radio">
+              <span class="checkmark"></span>50-100 rupees
+            </label><br>
+            <label class="gotham-light black main">
+              <input type="radio">
+              <span class="checkmark"></span>100-200 rupees
+            </label><br>
+            <label class="gotham-light black main">
+              <input type="radio" checked>
+              <span class="checkmark"></span>200-300 rupees
+            </label><br>
+            <label class="gotham-light black main">
+              <input type="radio">
+              <span class="checkmark"></span>500-1000 rupees
+            </label><br>
+            <label class="gotham-light black main">
+              <input type="radio">
+              <span class="checkmark"></span>1000+ rupees
+            </label>
+          </form>
+        </div>
+      </section>
+      <section class="col-md-7 container p-0 pt-4 px-2">
+        
+        </div>
+        <div class="row border rounded bg-white my-4 mx-0 p-0">
+          <div class="col-12 col-lg-5 p-0 m-0">
+            <img src="./Images/home-images/home-images/images.jpg" alt="" class="w-100 search-image rounded">
+          </div>
+          <div class="col-12 col-lg-7 d-flex-flex-column">
+            <div class="row">
+              <div class="col-12 col-md-9">
+                <h6 class="grey pt-2 small"><i class="fas fa-sync-alt small pr-2"></i></h6>
+                <h5 class="pink gotham-light">Os Book</h5>
+                <h6 class="black gotham-light">Subramanyam <span class="pink gotham-light">200 rupees</span>
+                </h6>
+                <h6 class="helvatica black font-weight-bold">Condition : New<i
+                    class="fas fa-swimmer pl-2 small"></i></h6>
+
+              </div>
+              <div class="d-none d-md-inline col-md-3 p-0 m-0">
+                <div class="float-md-right">
+                  <i class="fas fa-bookmark p-2 pt-3 grey fa-lg"></i><i class="fas fa-heart p-2 pt-3 pink fa-lg"></i>
+                </div>
+              </div>
+            </div>
+            <div>
+              <ul class="list-inline pt-2">
+                <li class="list-inline-item p-0 my-1"><a href="#" class="gotham-light black">
+                  <div class="pink-background rounded px-2 py-1 m-0 hover-link"><i class="fas fa-info-circle"></i><a href="productcard.html">More 
+                    Info</a></div>
+                </a></li>
+                <li class="list-inline-item p-0 my-1"><a href="#" class="gotham-light black">
+                    <div class="pink-background rounded px-2 py-1 m-0 hover-link"><i
+                        class="fas fa-envelope pr-2"></i><a href="uichat.html">Message</a></div>
+                  </a></li>
+                <li class="list-inline-item p-0 my-1"><a href="#" class="gotham-light black">
+                    <div class="pink-background rounded px-2 py-1 m-0 hover-link"><i class="fa fa-shopping-cart"></i><a href="add.html">Cart</a></div>
+                  </a></li>
+                <li class="list-inline-item"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       
+
+
+        <div class="d-flex flex-row justify-content-between py-4">
+          <div class="d-none d-md-inline">
+            <p class="black font-weight-bold helvatica small">Showing 1 to 4 of 83</p>
+          </div>
+          <div>
+            <nav class="flex items-center shadow-sm rounded-md black">
+              <button type="button"
+                class="inline-flex items-center justify-center bg-white px-2 py-1 border border-gray-300 rounded-l-md hover:text-gray-500 m-0">
+                <i class="fas fa-chevron-left text-xs black"></i>
+              </button>
+              <button type="button"
+                class="inline-flex items-center justify-center bg-white px-2 py-1 border border-gray-300 hover:text-gray-500 m-0 black">
+                1
+              </button>
+              <button type="button"
+                class="inline-flex items-center justify-center bg-white px-2 py-1 border border-gray-300 hover:text-gray-500 m-0 black">
+                2
+              </button>
+              <span
+                class="inline-flex items-center justify-center bg-white px-2 py-2 mr-1 border border-gray-300 black">
+                ...
+              </span>
+              <button type="button"
+                class="inline-flex items-center justify-center bg-white px-2 py-1 border border-gray-300 hover:text-gray-500 m-0 black">
+                20
+              </button>
+              <button type="button"
+                class="inline-flex items-center justify-center bg-white px-2 py-1 border border-gray-300 hover:text-gray-500 m-0 black">
+                21
+              </button>
+              <button type="button"
+                class="inline-flex items-center justify-center bg-white px-2 py-1 border border-gray-300 rounded-r-md hover:text-gray-500 m-0">
+                <i class="fas fa-chevron-right text-xs black"></i>
+              </button>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <!-- bootstrap JS files link -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
